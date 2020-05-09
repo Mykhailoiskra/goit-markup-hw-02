@@ -1,0 +1,155 @@
+:root {
+  --primary-text-color: #757575;
+  --black-title-color: #212121;
+  --white-title-color: #ffffff;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+
+/* All lists on the page */
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo-header {
+  color: var(--black-title-color);
+}
+.logo-header span {
+  color: var(--accent-color);
+}
+
+/* Navigation links */
+.site-nav .link {
+  color: var(--black-title-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+/* Contacts in the header */
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: grey;
+}
+
+.hero-title {
+  color: var(--white-title-color);
+}
+
+.hero-button {
+  color: var(--white-title-color);
+  background-color: var(--accent-color);
+  text-decoration: none;
+}
+
+/* Компетенции */
+
+.competencies {
+  background-color: #e5e5e5;
+}
+
+.competencies .title {
+  color: var(--black-title-color);
+}
+
+/* Секция с описанием услуг веб-студии */
+
+.activities {
+  background-color: #e5e5e5;
+}
+
+.section-title {
+  color: var(--black-title-color);
+}
+
+.examples .link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Наша команда */
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team .title {
+  color: var(--black-title-color);
+}
+
+.team-links a {
+  text-decoration: none;
+  color: inherit;
+}
+.team-links a:hover,
+.team-links a:focus {
+  color: var(--accent-color);
+}
+/* Постоянные клиенты */
+
+.clients-section {
+  background-color: #e5e5e5;
+}
+
+.clients a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.clients a:hover,
+.clients a:focus {
+  color: var(--accent-color);
+}
+
+/* Футер */
+
+footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: var(--white-title-color);
+  text-decoration: none;
+}
+.logo-footer span {
+  color: var(--accent-color);
+}
+
+.main-address {
+  color: var(--white-title-color);
+}
+
+.main-address a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.join-title {
+  color: var(--white-title-color);
+}
+.join a {
+  text-decoration: none;
+  color: var(--white-title-color);
+}
+.join a:hover,
+.join a:focus {
+  color: var(--accent-color);
+}
+
+.disclaimer {
+  color: rgba(255, 255, 255, 0.4);
+}
