@@ -91,10 +91,6 @@ body {
 
 /* Компетенции */
 
-.competencies {
-  background-color: #e5e5e5;
-}
-
 .competencies .title {
   color: var(--black-title-color);
 
@@ -111,10 +107,6 @@ body {
 }
 
 /* Секция с описанием услуг веб-студии */
-
-.activities {
-  background-color: #e5e5e5;
-}
 
 .section-title {
   color: var(--black-title-color);
@@ -163,10 +155,6 @@ body {
   color: var(--accent-color);
 }
 /* Постоянные клиенты */
-
-.clients-section {
-  background-color: #e5e5e5;
-}
 
 .clients a {
   text-decoration: none;
@@ -236,4 +224,51 @@ footer {
   font-size: 12px;
   line-height: 2;
   text-align: center;
+}
+
+/* СТРАНИЦА ПОРТФОЛИО */
+
+/* Кнопки фильтра */
+.filter-menu button {
+  background-color: #f5f4fa;
+  color: var(--black-title-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.filter-menu button:hover,
+.filter-menu button:focus,
+.filter-menu button:active {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Список проектов */
+
+.products a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-name {
+  color: var(--black-title-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.product-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.product-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
 }
